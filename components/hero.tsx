@@ -24,15 +24,13 @@ export default function Hero() {
         
         <FadeIn delay={200} direction="up">
           <p className="text-2xl sm:text-3xl text-white/90 font-light tracking-widest uppercase pb-2 drop-shadow-md">
-            Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.
+            Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.  Wir übernehmen Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.
           </p>
           <div className="w-24 h-1 bg-accent mx-auto rounded-full shadow-[0_0_15px_rgba(200,169,106,0.5)]"></div>
         </FadeIn>
 
         <FadeIn delay={400} direction="up">
-          <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-            Wir übernehmen Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.
-          </p>
+        
           <div className="flex flex-wrap items-center justify-center gap-6 mt-6 text-white/80 font-medium">
             <span className="flex items-center gap-2"><span className="text-accent font-bold">✔</span> Bau &amp; Sanierung</span>
             <span className="flex items-center gap-2"><span className="text-accent font-bold">✔</span> Facility Services</span>
