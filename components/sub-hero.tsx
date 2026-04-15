@@ -6,19 +6,21 @@ export default function SubHero() {
       <div className="max-w-4xl mx-auto space-y-8 relative z-10">
         <div className="fade-in-up">
           <h2 className="text-4xl font-bold text-primary text-center">
-            Komplexe Projekte erfordern mehr als einzelne Dienstleister.
+            Komplexe Bau- und Immobilienprojekte erfordern mehr als einzelne Dienstleister.
           </h2>
         </div>
 
         <div className="space-y-6 text-lg text-foreground/80 leading-relaxed fade-in-up" style={{ animationDelay: '0.1s' }}>
           <p className="text-center">
-            Sie erfordern klare Prozesse, zentrale Steuerung und zuverlässige Umsetzung.
+            Sie erfordern klare Prozesse, zentrale Steuerung und eine zuverlässige Umsetzung.
           </p>
 
           <div className="glass p-8 border border-gray-200/50 rounded-xl text-center">
             <p className="text-xl">
-              <strong className="text-primary block mb-2">Die Aurex Group GmbH übernimmt die vollständige Koordination und Umsetzung</strong> 
-              von der Planung bis zur Fertigstellung.
+              <strong className="text-primary block mb-4">Die Aurex Group GmbH übernimmt die vollständige Koordination – von der ersten Planung bis zur finalen Umsetzung.</strong>
+            </p>
+            <p className="text-primary font-bold text-lg tracking-wide">
+              Ein Ansprechpartner. Klare Prozesse. Verlässliche Ergebnisse.
             </p>
           </div>
         </div>

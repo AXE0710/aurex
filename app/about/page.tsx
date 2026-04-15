@@ -49,10 +49,13 @@ export default function About() {
               </h2>
               <div className="glass p-8 rounded-2xl border border-gray-200/50 shadow-lg">
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                  Unser Fokus liegt auf der effizienten Steuerung komplexer Projekte. Durch klare Prozesse, ein etabliertes Netzwerk an Fachpartnern und konsequente Qualitätskontrolle stellen wir sicher, dass Projekte zuverlässig und termingerecht umgesetzt werden.
+                  Unser Fokus liegt nicht auf einzelnen Leistungen, sondern auf der effizienten Steuerung kompletter Projekte.
+                </p>
+                <p className="text-lg text-foreground/80 leading-relaxed mb-6">
+                  Durch klare Prozesse, ein etabliertes Netzwerk an Fachpartnern und konsequente Qualitätskontrolle stellen wir sicher, dass Projekte zuverlässig und termingerecht umgesetzt werden.
                 </p>
                 <p className="text-lg text-primary leading-relaxed font-bold">
-                  Wir verstehen uns als zentraler Ansprechpartner für Kunden, die Wert auf eine professionelle, kontrollierte und effiziente Umsetzung legen.
+                  Wir verstehen uns nicht als klassisches Bauunternehmen, sondern als zentraler Ansprechpartner für die strukturierte Umsetzung komplexer Projekte.
                 </p>
               </div>
             </div>

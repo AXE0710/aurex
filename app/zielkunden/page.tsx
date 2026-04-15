@@ -11,10 +11,10 @@ export default function Zielkunden() {
       image: '/ziel_realestate.png',
       leistungen: [
         'Renovierung und Modernisierung',
-        'Wertsteigerungsmaßnahmen',
-        'Laufende Betreuung und Instandhaltung'
+        'Wertsteigerung von Immobilien',
+        'Laufende Betreuung'
       ],
-      vorteil: 'Effiziente Umsetzung bei gleichzeitig minimalem eigenen Aufwand.'
+      vorteil: 'Gezielte Wertsteigerung Ihrer Immobilie bei gleichzeitig reduziertem Zeit- und Koordinationsaufwand.'
     },
     {
       title: 'Hausverwaltungen',
@@ -22,23 +22,23 @@ export default function Zielkunden() {
       icon: Building2,
       image: '/ziel_property_management.png',
       leistungen: [
-        'Regelmäßige Objektbetreuung',
-        'Koordination von Reparaturen',
-        'Wartung und Instandhaltung'
+        'Instandhaltung und Reparaturen',
+        'Objektbetreuung',
+        'Koordination von Dienstleistern'
       ],
-      vorteil: 'Zuverlässige Umsetzung ohne zusätzlichen Koordinationsaufwand.'
+      vorteil: 'Spürbare Entlastung im Tagesgeschäft durch zuverlässige Umsetzung und klare Zuständigkeiten.'
     },
     {
-      title: 'Hotels & Gewerbeobjekte',
+      title: 'Hotels & Gewerbe',
       description: 'Wir realisieren Projekte im laufenden Betrieb und sorgen für einen reibungslosen Ablauf.',
       icon: Hotel,
       image: '/ziel_hotellobby.png',
       leistungen: [
-        'Renovierungen im Bestand',
+        'Renovierungen im laufenden Betrieb',
         'Reinigung und Wartung',
-        'Laufende Betreuung'
+        'Schnelle Umsetzung'
       ],
-      vorteil: 'Kontinuierlicher Betrieb bei gleichbleibend hoher Qualität.'
+      vorteil: 'Stabile Betriebsabläufe bei gleichbleibend hoher Qualität – auch während laufender Maßnahmen.'
     },
     {
       title: 'Immobilienmakler',
@@ -46,11 +46,11 @@ export default function Zielkunden() {
       icon: TrendingUp,
       image: '/ziel_broker.png',
       leistungen: [
-        'Aufwertung durch gezielte Renovierungsmaßnahmen',
-        'Schnelle und strukturierte Umsetzung',
-        'Koordination aller Gewerke'
+        'Aufwertung von Immobilien vor Verkauf',
+        'Schnelle Renovierungen',
+        'Verkaufsoptimierung'
       ],
-      vorteil: 'Steigerung des Verkaufspreises und schnellere Vermarktung.'
+      vorteil: 'Optimale Verkaufsbedingungen durch gezielte Aufwertung – für höhere Preise und kürzere Vermarktungszeiten.'
     },
     {
       title: 'Projektentwickler',
@@ -58,11 +58,11 @@ export default function Zielkunden() {
       icon: Users2,
       image: '/ziel_development.png',
       leistungen: [
-        'Unterstützung bei Ausbau- und Teilprojekten',
-        'Koordination externer Dienstleister',
-        'Strukturierte Projektbegleitung'
+        'Unterstützung bei Bauphasen',
+        'Koordination von Gewerken',
+        'Strukturierte Umsetzung'
       ],
-      vorteil: 'Flexible Umsetzung und Entlastung im operativen Projektgeschäft.'
+      vorteil: 'Flexible Unterstützung und zuverlässige Umsetzung komplexer Projektphasen.'
     }
   ]
 

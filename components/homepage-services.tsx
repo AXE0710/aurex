@@ -6,17 +6,17 @@ export default function HomepageServices() {
     {
       title: 'Bau & Sanierung',
       description: 'Effiziente Umsetzung von Renovierungen und Modernisierungen im Bestand.',
-      image: '/bau_sanierung.png'
+      image: '/bau_sanierung_nachher.png'
     },
     {
       title: 'Facility Services',
       description: 'Zuverlässige Betreuung und Werterhalt Ihrer Immobilie.',
-      image: '/facility_services.png'
+      image: '/facility_services_nachher.png'
     },
     {
       title: 'Projektmanagement',
       description: 'Strukturierte Steuerung aller Projektphasen.',
-      image: '/projektmanagement.png'
+      image: '/projektmanagement_nachher.png'
     }
   ]
 

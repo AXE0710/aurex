@@ -15,10 +15,10 @@ export default function HomepageCustomers() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16 fade-in-up">
           <h2 className="text-5xl font-bold text-primary mb-4">
-            Zielkunden
+            Unsere Zielkunden
           </h2>
-          <p className="text-foreground/70 text-lg">
-            Wir arbeiten mit verschiedenen Kundengruppen
+          <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
+            Wir unterstützen unterschiedliche Kundengruppen bei der effizienten Umsetzung von Bau-, Sanierungs- und Facility-Projekten.
           </p>
         </div>
 

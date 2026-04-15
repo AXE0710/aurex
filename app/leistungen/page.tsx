@@ -7,39 +7,58 @@ export default function Leistungen() {
   const services = [
     {
       title: 'Bau & Sanierung',
-      description: 'Wir realisieren Renovierungs- und Bauprojekte im Bestand effizient und strukturiert. Von einzelnen Maßnahmen bis hin zur vollständigen Modernisierung.',
+      description: 'Wir realisieren Bau- und Renovierungsprojekte effizient und übernehmen die vollständige Koordination für Sie.',
       icon: HardHat,
-      image: '/bau_sanierung.png',
+      imageBefore: '/bau_sanierung_vorher.png',
+      imageAfter: '/bau_sanierung_nachher.png',
+      typicalProjects: [
+        'Renovierung von Wohnungen und Häusern',
+        'Bad- und Kühensanierungen',
+        'Maler-, Boden- und Trockenbauarbeiten',
+        'Modernisierung von Gewerbeeinheiten'
+      ],
       features: [
-        'Innenausbau',
-        'Renovierung',
-        'Modernisierung',
-        'Koordination aller Gewerke'
-      ]
+        'Planung und Organisation',
+        'Koordination aller Gewerke',
+        'Steuerung der Umsetzung',
+        'Qualitätskontrolle'
+      ],
+      result: 'Reibungslose Umsetzung mit klarer Koordination aller Gewerke – ohne zusätzlichen Abstimmungsaufwand für Sie.'
     },
     {
       title: 'Facility Services',
       description: 'Wir sichern den laufenden Betrieb und den langfristigen Werterhalt Ihrer Immobilie.',
       icon: Wrench,
-      image: '/facility_services.png',
+      imageBefore: '/facility_services_vorher.png',
+      imageAfter: '/facility_services_nachher.png',
+      typicalProjects: [
+        'Gebäudereinigung (regelmäßig oder nach Bedarf)',
+        'Hausmeisterservices',
+        'Wartung und Instandhaltung',
+        'Betreuung von Objekten und Anlagen'
+      ],
       features: [
-        'Reinigung',
-        'Wartung',
-        'Hausmeisterservice',
-        'Objektbetreuung'
-      ]
+        'Regelmäßige Objektbetreuung',
+        'Koordination von Reparaturen',
+        'Schnelle Reaktionszeiten',
+        'Strukturierte Abläufe'
+      ],
+      result: 'Zuverlässiger Betrieb Ihrer Immobilie durch strukturierte Abläufe und schnelle Reaktionszeiten – bei minimalem operativem Aufwand für Sie.'
     },
     {
       title: 'Projektmanagement',
-      description: 'Wir übernehmen die zentrale Steuerung Ihres Projekts – transparent und kontrolliert.',
+      description: 'Wir übernehmen die zentrale Steuerung Ihres Projekts – strukturiert, transparent und effizient.',
       icon: ClipboardList,
-      image: '/projektmanagement.png',
+      imageBefore: '/projektmanagement_vorher.png',
+      imageAfter: '/projektmanagement_nachher.png',
+      typicalProjects: null,
       features: [
-        'Planung',
-        'Koordination',
-        'Qualitätskontrolle',
-        'Budgetüberwachung'
-      ]
+        'Projektplanung und Strukturierung',
+        'Koordination aller Dienstleister',
+        'Budget- und Zeitüberwachung',
+        'Qualitätskontrolle'
+      ],
+      result: 'Volle Kontrolle über Ihr Projekt durch transparente Steuerung, klare Prozesse und verlässliche Einhaltung von Zeit- und Budgetvorgaben.'
     }
   ]
 
@@ -88,29 +107,68 @@ export default function Leistungen() {
                       </p>
 
                       <div>
-                        <p className="text-sm font-bold text-primary/40 uppercase tracking-widest mb-6">
-                          Leistungsumfang
+                        {service.typicalProjects && (
+                          <>
+                            <p className="text-sm font-bold text-primary/40 uppercase tracking-widest mb-4">
+                              Typische Projekte
+                            </p>
+                            <ul className="space-y-3 mb-8">
+                              {service.typicalProjects.map((project, i) => (
+                                <li key={i} className="flex items-start gap-3 text-foreground/70 text-sm">
+                                  <span className="text-accent font-bold flex-shrink-0 mt-0.5">→</span>
+                                  <span>{project}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </>
+                        )}
+                        <p className="text-sm font-bold text-primary/40 uppercase tracking-widest mb-4">
+                          Leistungen im Detail
                         </p>
-                        <ul className="space-y-4">
+                        <ul className="space-y-3 mb-8">
                           {service.features.map((feature, i) => (
                             <li key={i} className="flex items-start gap-4 text-foreground/80 font-medium">
-                              <CheckCircle2 size={22} className="text-accent flex-shrink-0 mt-0.5" />
+                              <CheckCircle2 size={20} className="text-accent flex-shrink-0 mt-0.5" />
                               <span>{feature}</span>
                             </li>
                           ))}
                         </ul>
+                        <div className="bg-accent/8 border border-accent/20 rounded-xl p-5">
+                          <p className="text-xs font-bold text-accent uppercase tracking-widest mb-2">Ergebnis</p>
+                          <p className="text-foreground/80 text-sm leading-relaxed font-medium">{service.result}</p>
+                        </div>
                       </div>
                     </div>
 
                     {/* Image Side */}
-                    <div className="relative h-[300px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
-                       <img 
-                          src={service.image} 
-                          alt={service.title} 
-                          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 smooth-transition duration-700" 
-                       />
-                       {/* Subtle overlay to ensure premium feel */}
-                       <div className="absolute inset-0 bg-primary/10 group-hover:bg-transparent smooth-transition"></div>
+                    <div className="relative h-[350px] md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl flex flex-col sm:flex-row gap-0 sm:gap-2 bg-transparent">
+                       
+                       {/* Before Image */}
+                       <div className="relative w-full sm:w-1/2 h-1/2 sm:h-full group/img overflow-hidden rounded-t-2xl sm:rounded-l-2xl sm:rounded-tr-none">
+                          <div className="absolute top-4 left-4 bg-black/60 text-white text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full backdrop-blur-md z-10 shadow-lg">
+                            Vorher
+                          </div>
+                          <img 
+                            src={service.imageBefore} 
+                            alt={`${service.title} Vorher`} 
+                            className="absolute inset-0 w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700 ease-in-out" 
+                          />
+                          <div className="absolute inset-0 bg-black/10 group-hover/img:bg-transparent transition-colors duration-500"></div>
+                       </div>
+
+                       {/* After Image */}
+                       <div className="relative w-full sm:w-1/2 h-1/2 sm:h-full group/img overflow-hidden rounded-b-2xl sm:rounded-r-2xl sm:rounded-bl-none">
+                          <div className="absolute top-4 left-4 bg-accent text-white text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full z-10 shadow-lg">
+                            Nachher
+                          </div>
+                          <img 
+                            src={service.imageAfter} 
+                            alt={`${service.title} Nachher`} 
+                            className="absolute inset-0 w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700 ease-in-out" 
+                          />
+                          <div className="absolute inset-0 bg-primary/10 group-hover/img:bg-transparent transition-colors duration-500"></div>
+                       </div>
+
                     </div>
                   </div>
 

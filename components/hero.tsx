@@ -17,9 +17,6 @@ export default function Hero() {
       
       <div className="max-w-5xl mx-auto text-center space-y-10 relative z-10 pt-16">
         <FadeIn delay={0} direction="up">
-          <div className="inline-block px-4 py-1.5 mb-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-md text-white/90 text-sm font-semibold tracking-wider uppercase mb-6 shadow-2xl">
-            Premium Projektpartner
-          </div>
           <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold text-white leading-tight tracking-tight drop-shadow-2xl">
             Aurex Group
           </h1>
@@ -27,15 +24,20 @@ export default function Hero() {
         
         <FadeIn delay={200} direction="up">
           <p className="text-2xl sm:text-3xl text-white/90 font-light tracking-widest uppercase pb-2 drop-shadow-md">
-            Execution. Structure. Results.
+            Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.
           </p>
           <div className="w-24 h-1 bg-accent mx-auto rounded-full shadow-[0_0_15px_rgba(200,169,106,0.5)]"></div>
         </FadeIn>
 
         <FadeIn delay={400} direction="up">
           <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-            Strukturierte Umsetzung von Bau-, Sanierungs- und Facility-Projekten – effizient gesteuert aus einer Hand.
+            Wir übernehmen Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.
           </p>
+          <div className="flex flex-wrap items-center justify-center gap-6 mt-6 text-white/80 font-medium">
+            <span className="flex items-center gap-2"><span className="text-accent font-bold">✔</span> Bau &amp; Sanierung</span>
+            <span className="flex items-center gap-2"><span className="text-accent font-bold">✔</span> Facility Services</span>
+            <span className="flex items-center gap-2"><span className="text-accent font-bold">✔</span> Projektmanagement</span>
+          </div>
         </FadeIn>
 
         <FadeIn delay={600} direction="up" className="pt-6">

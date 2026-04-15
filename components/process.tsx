@@ -5,22 +5,22 @@ export default function Process() {
     {
       number: '1',
       title: 'Analyse',
-      description: 'Wir verstehen Ihr Projekt, Ihre Anforderungen und Ihre Prioritäten.'
+      description: 'Wir verstehen Ihr Projekt und Ihre Anforderungen.'
     },
     {
       number: '2',
       title: 'Struktur',
-      description: 'Wir definieren einen klaren Ablauf mit festen Verantwortlichkeiten.'
+      description: 'Wir definieren klare Abläufe und koordinieren alle Beteiligten.'
     },
     {
       number: '3',
       title: 'Umsetzung',
-      description: 'Wir koordinieren alle Gewerke und steuern die Durchführung.'
+      description: 'Wir steuern die Durchführung und sorgen für einen reibungslosen Ablauf.'
     },
     {
       number: '4',
       title: 'Kontrolle',
-      description: 'Wir sichern Qualität, Termine und Budget.'
+      description: 'Wir überwachen Qualität, Termine und Budget.'
     }
   ]
 
@@ -103,6 +103,16 @@ export default function Process() {
                </div>
              </div>
            ))}
+        </div>
+
+        {/* Result Callout */}
+        <div className="mt-16 max-w-3xl mx-auto">
+          <div className="bg-accent/8 border border-accent/30 rounded-2xl p-8 text-center fade-in-up">
+            <p className="text-xs font-bold text-accent uppercase tracking-widest mb-3">Ergebnis</p>
+            <p className="text-lg text-primary font-semibold leading-relaxed">
+              Effiziente, strukturierte Umsetzung mit klarer Kontrolle über alle Projektphasen.
+            </p>
+          </div>
         </div>
 
       </div>

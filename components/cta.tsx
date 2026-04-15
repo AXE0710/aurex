@@ -15,7 +15,7 @@ export default function CTA() {
               Projekt anfragen
             </h2>
             <p className="text-xl text-white/80 leading-relaxed max-w-3xl mx-auto font-light">
-              Lassen Sie uns Ihr Projekt strukturiert umsetzen.
+              Beschreiben Sie Ihr Vorhaben – wir melden uns kurzfristig mit einer fundierten Ersteinschätzung und konkreten nächsten Schritten.
             </p>
           </div>
         </FadeIn>

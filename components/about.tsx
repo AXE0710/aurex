@@ -16,12 +16,15 @@ export default function About() {
           </p>
 
           <p>
-            <strong className="text-primary">Unser Fokus</strong> liegt nicht auf der Ausführung einzelner Leistungen, sondern auf der effizienten Steuerung gesamter Projekte.
+            <strong className="text-primary">Unser Fokus</strong> liegt nicht auf einzelnen Leistungen, sondern auf der effizienten Steuerung gesamter Projekte.
           </p>
 
           <div className="glass p-8 rounded-xl border border-gray-200/50">
             <p>
-              Durch ein etabliertes Netzwerk an spezialisierten Partnern und klar definierte Prozesse stellen wir sicher, dass Projekte zuverlässig, termingerecht und in der gewünschten Qualität umgesetzt werden.
+              Durch klare Prozesse, ein etabliertes Netzwerk an Fachpartnern und konsequente Qualitätskontrolle stellen wir sicher, dass Projekte zuverlässig und termingerecht umgesetzt werden.
+            </p>
+            <p className="mt-4 font-semibold text-primary">
+              Wir verstehen uns nicht als klassisches Bauunternehmen, sondern als zentraler Ansprechpartner für die strukturierte Umsetzung komplexer Projekte.
             </p>
           </div>
         </div>

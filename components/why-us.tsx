@@ -3,11 +3,10 @@ import { FadeIn } from '@/components/ui/fade-in'
 
 export default function WhyUs() {
   const reasons = [
-    { text: 'Ein zentraler Ansprechpartner', desc: 'Wir bündeln alle Leistungen und Gewerke.' },
-    { text: 'Strukturierte Umsetzung', desc: 'Klare Prozesse garantieren Termintreue.' },
-    { text: 'Geprüftes Netzwerk', desc: 'Wir arbeiten nur mit absoluten Profis.' },
-    { text: 'Schnelle Reaktionszeiten', desc: 'Keine langen Wartezeiten, direkte Action.' },
-    { text: 'Volle Transparenz', desc: 'Sie haben stets die volle Kostenkontrolle.' }
+    { text: 'Minimierter Koordinationsaufwand', desc: 'Ein zentraler Ansprechpartner – keine langen Abstimmungsschleifen zwischen verschiedenen Dienstleistern.' },
+    { text: 'Strukturierte Abläufe', desc: 'Klar definierte Prozesse statt unkontrollierter Verläufe – Ihr Projekt läuft planmäßig.' },
+    { text: 'Klar definierte Verantwortlichkeiten', desc: 'Verlässliche Umsetzung mit transparent geregelten Zuständigkeiten.' },
+    { text: 'Nachhaltiger Werterhalt', desc: 'Gezielte Wertsteigerung durch strukturierte Instandhaltung und Modernisierung Ihrer Immobilie.' }
   ]
 
   return (
@@ -16,10 +15,10 @@ export default function WhyUs() {
         
         <div className="text-center mb-20 fade-in-up">
           <h2 className="text-5xl font-bold text-primary mb-6">
-            Warum Aurex
+            Ihr Vorteil mit Aurex
           </h2>
           <p className="text-xl text-foreground/70 leading-relaxed font-light max-w-3xl mx-auto">
-            Wir sind nicht nur ein Dienstleister, wir sind Ihr strategischer Partner. Durch unsere strukturierte Herangehensweise minimieren wir Risiken und maximieren den Wert Ihrer Immobilie.
+            Wir sind nicht nur ein Dienstleister – wir sind Ihr strategischer Partner für strukturierte Umsetzung und nachhaltigen Immobilienwert.
           </p>
         </div>
 
@@ -44,9 +43,9 @@ export default function WhyUs() {
           
           <FadeIn delay={reasons.length * 100} direction="up">
              <div className="bg-gradient-to-br from-primary to-primary/90 p-8 rounded-2xl border border-gray-200/50 flex flex-col items-center justify-center h-full text-center hover:-translate-y-2 smooth-transition hover:shadow-2xl shadow-xl">
-               <h3 className="text-2xl font-bold text-white mb-2">100% Qualität</h3>
+               <h3 className="text-2xl font-bold text-white mb-2">Nachhaltiger Mehrwert</h3>
                <div className="w-16 h-1 bg-accent rounded-full mb-4"></div>
-               <p className="text-white/80 font-light">Garantiert durch unsere Partner.</p>
+               <p className="text-white/80 font-light">Gezielte Steigerung des Immobilienwerts durch konsequente Qualitätskontrolle.</p>
              </div>
           </FadeIn>
         </div>
