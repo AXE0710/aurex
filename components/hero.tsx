@@ -17,9 +17,13 @@ export default function Hero() {
       
       <div className="max-w-5xl mx-auto text-center space-y-10 relative z-10 pt-16">
         <FadeIn delay={0} direction="up">
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold text-white leading-tight tracking-tight drop-shadow-2xl">
-            Aurex Group
-          </h1>
+          <h1 className="sr-only">Aurex Group</h1>
+          <img
+            src="/title.png"
+            alt="Aurex Group"
+            className="mx-auto w-[160px] sm:w-[220px] lg:w-[300px] xl:w-[360px] drop-shadow-[0_4px_24px_rgba(212,175,55,0.5)] select-none"
+            draggable={false}
+          />
         </FadeIn>
         
         <FadeIn delay={200} direction="up">

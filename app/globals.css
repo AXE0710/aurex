@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
@@ -229,4 +230,24 @@
   .smooth-transition {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
+
+.hero-title {
+  font-family: 'Cinzel', 'Trajan Pro', 'Times New Roman', serif;
+  font-weight: 900;
+  background: linear-gradient(
+    180deg,
+    #F7E7A1 0%,
+    #D4AF37 30%,
+    #F5D060 50%,
+    #8C6B1F 70%,
+    #D4AF37 85%,
+    #F7E7A1 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.8)) drop-shadow(0 0 20px rgba(212,175,55,0.4));
+  text-shadow: none;
+  letter-spacing: 0.08em;
 }
