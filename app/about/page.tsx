@@ -71,30 +71,45 @@ export default function About() {
             </div>
           </div>
 
-          {/* Values Grid */}
+          {/* Values — Editorial Band Layout */}
           <div className="fade-in-up mb-24" style={{ animationDelay: '0.3s' }}>
-            <div className="glass p-12 rounded-3xl border border-gray-200/50 bg-gradient-to-br from-white to-gray-50/50">
-              <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold text-primary mb-4">
-                  Das zeichnet uns aus
-                </h2>
-                <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-                  Fundamente für eine erfolgreiche und langfristige Zusammenarbeit.
-                </p>
-              </div>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {values.map((value, index) => (
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-primary mb-4">Das zeichnet uns aus</h2>
+              <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
+                Fundamente für eine erfolgreiche und langfristige Zusammenarbeit.
+              </p>
+            </div>
+
+            <div className="rounded-3xl overflow-hidden border border-gray-200/50 shadow-2xl">
+              {values.map((value, index) => {
+                const isDark = index % 2 === 1
+                const isReversed = index % 2 === 1
+                return (
                   <div
                     key={index}
-                    className="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm flex flex-col gap-4 hover:shadow-xl hover:border-accent/30 smooth-transition hover:-translate-y-1 group"
+                    className={`group relative flex ${isReversed ? 'flex-row-reverse' : 'flex-row'} items-stretch overflow-hidden smooth-transition hover:brightness-105 ${isDark ? 'bg-primary text-white' : 'bg-white text-primary'}`}
                   >
-                    <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0 group-hover:scale-110 smooth-transition group-hover:bg-accent">
-                      <Check size={20} className="text-accent group-hover:text-accent-foreground smooth-transition" />
+                    {/* Giant number panel */}
+                    <div className={`relative flex items-center justify-center w-40 md:w-56 flex-shrink-0 ${isDark ? 'bg-white/5' : 'bg-gray-50'} border-r border-l ${isDark ? 'border-white/10' : 'border-gray-100'}`}>
+                      <span className={`text-[6rem] md:text-[8rem] font-black leading-none select-none ${isDark ? 'text-white/10 group-hover:text-accent/30' : 'text-gray-100 group-hover:text-accent/20'} smooth-transition`}>
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
                     </div>
-                    <p className="text-primary font-medium leading-relaxed">{value}</p>
+
+                    {/* Content panel */}
+                    <div className="flex-1 flex items-center gap-6 px-8 md:px-14 py-10">
+                      {/* Gold accent dot */}
+                      <div className="w-2.5 h-2.5 rounded-full bg-accent flex-shrink-0 shadow-[0_0_10px_rgba(200,169,106,0.6)] group-hover:scale-150 smooth-transition" />
+                      <p className={`text-lg md:text-xl font-semibold leading-snug ${isDark ? 'text-white/90' : 'text-primary'}`}>
+                        {value}
+                      </p>
+                    </div>
+
+                    {/* Hover gold shimmer line */}
+                    <div className={`absolute ${isReversed ? 'right-0' : 'left-0'} top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-accent to-transparent opacity-0 group-hover:opacity-100 smooth-transition`} />
                   </div>
-                ))}
-              </div>
+                )
+              })}
             </div>
           </div>
 

@@ -38,9 +38,10 @@ export default function Footer() {
 
           <div className="fade-in-up" style={{ animationDelay: '0.15s' }}>
             <h4 className="font-semibold mb-4 text-sm uppercase tracking-wide">Kontakt</h4>
-            <ul className="space-y-2 text-sm text-white/70">
-              <li>Email: <a href="mailto:info@aurexgroup.de" className="hover:text-white smooth-transition">info@aurexgroup.de</a></li>
-              <li>Tel: <a href="tel:+49123456789" className="hover:text-white smooth-transition">+49 (0) 123 456789</a></li>
+            <ul className="space-y-3 text-sm text-white/70">
+              <li className="text-white/50 text-xs uppercase tracking-wide">Mubashar Ahmad Khan<br/><span className="text-white/40">CEO / Geschäftsführer</span></li>
+              <li>Email: <a href="mailto:info@terralumeliving.com" className="hover:text-white smooth-transition">info@terralumeliving.com</a></li>
+              <li>Tel: <a href="tel:+4917592777097" className="hover:text-white smooth-transition">+49 175 92 777 97</a></li>
             </ul>
           </div>
         </div>

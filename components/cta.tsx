@@ -27,10 +27,10 @@ export default function CTA() {
               <MessageCircle size={40} className="text-accent mx-auto mb-6 group-hover:scale-110 smooth-transition" />
               <h3 className="text-2xl font-bold text-white mb-3">Schnelle Anfrage</h3>
               <p className="text-white/70 mb-8 font-light">
-                Kontaktieren Sie uns via WhatsApp. Antwort in ca. 30 Minuten.
+                Kontaktieren Sie uns via WhatsApp oder rufen Sie direkt an: +49 175 92 777 97
               </p>
               <a
-                href="https://wa.me/49123456789"
+                href="https://wa.me/4917592777097"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 w-full py-3 bg-accent text-accent-foreground rounded-lg hover:shadow-[0_0_20px_rgba(200,169,106,0.4)] smooth-transition font-bold tracking-wide"
@@ -134,7 +134,7 @@ export default function CTA() {
                 <ArrowRight size={20} className="group-hover:translate-x-1 smooth-transition" />
               </button>
               <a
-                href="https://wa.me/49123456789"
+                href="https://wa.me/4917592777097"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 bg-accent hover:shadow-lg hover:shadow-accent/30 text-accent-foreground py-3 px-6 text-lg font-semibold flex items-center justify-center gap-2 rounded-lg smooth-transition"

@@ -43,10 +43,10 @@ export default function Kontakt() {
               </div>
               <h3 className="text-lg font-bold text-primary mb-2">Email</h3>
               <a
-                href="mailto:info@aurexgroup.de"
+                href="mailto:info@terralumeliving.com"
                 className="text-accent hover:text-accent/80 smooth-transition font-medium text-xs sm:text-sm break-all"
               >
-                info@aurexgroup.de
+                info@terralumeliving.com
               </a>
             </div>
 
@@ -59,10 +59,10 @@ export default function Kontakt() {
               </div>
               <h3 className="text-lg font-bold text-primary mb-2">Telefon</h3>
               <a
-                href="tel:+49123456789"
+                href="tel:+4917592777097"
                 className="text-accent hover:text-accent/80 smooth-transition font-medium text-xs sm:text-sm break-words"
               >
-                +49 (0) 123 456789
+                +49 175 92 777 97
               </a>
             </div>
 
@@ -75,12 +75,12 @@ export default function Kontakt() {
               </div>
               <h3 className="text-lg font-bold text-primary mb-2">WhatsApp</h3>
               <a
-                href="https://wa.me/49123456789"
+                href="https://wa.me/4917592777097"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-accent/80 smooth-transition font-medium text-xs sm:text-sm break-words"
               >
-                Schreiben Sie uns
+                +49 175 92 777 97
               </a>
             </div>
 
@@ -91,11 +91,11 @@ export default function Kontakt() {
               <div className="w-12 h-12 bg-gradient-to-br from-accent to-accent/60 rounded-lg mx-auto mb-4 flex items-center justify-center">
                 <MapPin size={24} className="text-accent-foreground" />
               </div>
-              <h3 className="text-lg font-bold text-primary mb-2">Adresse</h3>
+              <h3 className="text-lg font-bold text-primary mb-2">Vertreten durch</h3>
               <p className="text-foreground/70 text-xs">
-                Beispielstraße 123
+                Mubashar Ahmad Khan
                 <br />
-                12345 Berlin
+                CEO / Geschäftsführer
               </p>
             </div>
           </div>
@@ -111,10 +111,10 @@ export default function Kontakt() {
                 <h3 className="text-2xl font-bold text-primary">Schnelle Anfrage</h3>
               </div>
               <p className="text-foreground/70 mb-6">
-                Kontaktieren Sie uns via WhatsApp für eine schnelle erste Einschätzung. Wir antworten in der Regel innerhalb von 30 Minuten.
+                Kontaktieren Sie uns via WhatsApp oder direkt unter <strong>+49 175 92 777 97</strong>. Wir antworten in der Regel innerhalb von 30 Minuten.
               </p>
               <a
-                href="https://wa.me/49123456789"
+                href="https://wa.me/4917592777097"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex w-full sm:w-auto justify-center sm:inline-flex items-center gap-2 px-4 sm:px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:shadow-lg hover:shadow-accent/30 smooth-transition font-medium text-sm sm:text-base text-center"
@@ -292,7 +292,7 @@ export default function Kontakt() {
                     Anfrage senden
                   </button>
                   <a
-                    href="https://wa.me/49123456789"
+                    href="https://wa.me/4917592777097"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 px-6 py-3.5 bg-accent hover:shadow-lg hover:shadow-accent/30 text-accent-foreground text-lg font-semibold rounded-lg smooth-transition group flex items-center justify-center gap-2"

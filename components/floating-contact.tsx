@@ -22,7 +22,7 @@ export default function FloatingContact() {
 
         <div className="space-y-3">
           <a 
-            href="https://wa.me/49123456789" 
+            href="https://wa.me/4917592777097" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-3 p-3 bg-green-50 hover:bg-green-100 text-green-700 rounded-xl smooth-transition group"
@@ -32,7 +32,7 @@ export default function FloatingContact() {
             </div>
             <div>
               <p className="font-bold text-sm">WhatsApp Chat</p>
-              <p className="text-xs opacity-80">Rückmeldung in ~30 Min</p>
+              <p className="text-xs opacity-80">+49 175 92 777 97</p>
             </div>
           </a>
 
