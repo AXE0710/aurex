@@ -64,10 +64,13 @@ export default function CTA() {
               <p className="text-white/70 mb-8 font-light">
                 Detailliertes Formular für umfassende Anfragen.
               </p>
-              <button className="inline-flex items-center justify-center gap-2 w-full py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 smooth-transition font-bold tracking-wide">
+              <a
+                href="/kontakt"
+                className="inline-flex items-center justify-center gap-2 w-full py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 smooth-transition font-bold tracking-wide"
+              >
                 Zum Formular
                 <ArrowRight size={18} />
-              </button>
+              </a>
             </div>
           </FadeIn>
         </div>

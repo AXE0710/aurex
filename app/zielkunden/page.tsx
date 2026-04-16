@@ -148,10 +148,8 @@ export default function Zielkunden() {
               <p className="text-lg text-foreground/70 mb-8 max-w-2xl mx-auto">
                 Lassen Sie uns über Ihre Anforderungen sprechen und wie wir Sie unterstützen können.
               </p>
-              <a href="/kontakt">
-                <button className="px-8 py-3 bg-accent text-accent-foreground rounded-lg hover:shadow-xl hover:shadow-accent/40 smooth-transition font-medium">
-                  Kontakt aufnehmen
-                </button>
+              <a href="/kontakt" className="inline-block px-8 py-3 bg-accent text-accent-foreground rounded-lg hover:shadow-xl hover:shadow-accent/40 smooth-transition font-medium">
+                Kontakt aufnehmen
               </a>
             </div>
           </div>

@@ -189,11 +189,9 @@ export default function Leistungen() {
                 <p className="text-lg md:text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light">
                   Kontaktieren Sie uns für ein unverbindliches Gespräch über Ihr Projekt.
                 </p>
-                <a href="/kontakt" className="inline-flex">
-                  <button className="px-8 py-4 bg-accent text-accent-foreground rounded-lg hover:shadow-xl hover:shadow-accent/40 smooth-transition font-bold tracking-wide flex items-center gap-3 group">
-                    Anfrage stellen
-                    <ArrowRight size={20} className="group-hover:translate-x-1 smooth-transition" />
-                  </button>
+                <a href="/kontakt" className="inline-flex px-8 py-4 bg-accent text-accent-foreground rounded-lg hover:shadow-xl hover:shadow-accent/40 smooth-transition font-bold tracking-wide items-center gap-3 group">
+                  Anfrage stellen
+                  <ArrowRight size={20} className="group-hover:translate-x-1 smooth-transition" />
                 </a>
               </div>
             </div>

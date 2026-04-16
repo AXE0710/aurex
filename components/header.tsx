@@ -39,11 +39,9 @@ export default function Header() {
         </div>
 
         <div className="hidden md:flex">
-          <a href="/kontakt">
-            <button className="px-6 py-2.5 bg-[#C8A96A] text-[#0B0B0B] rounded-lg hover:shadow-lg hover:shadow-[#C8A96A]/40 smooth-transition font-bold flex items-center gap-2 group tracking-wide">
-              Projekt anfragen
-              <ArrowRight size={16} className="group-hover:translate-x-1 smooth-transition" />
-            </button>
+          <a href="/kontakt" className="px-6 py-2.5 bg-[#C8A96A] text-[#0B0B0B] rounded-lg hover:shadow-lg hover:shadow-[#C8A96A]/40 smooth-transition font-bold flex items-center gap-2 group tracking-wide">
+            Projekt anfragen
+            <ArrowRight size={16} className="group-hover:translate-x-1 smooth-transition" />
           </a>
         </div>
 
@@ -76,11 +74,9 @@ export default function Header() {
               {label}
             </Link>
           ))}
-          <a href="/kontakt" className="block">
-            <button className="w-full px-6 py-2.5 bg-[#C8A96A] text-[#0B0B0B] rounded-lg hover:shadow-lg smooth-transition font-bold flex items-center justify-center gap-2">
-              Projekt anfragen
-              <ArrowRight size={16} />
-            </button>
+          <a href="/kontakt" className="block w-full px-6 py-2.5 bg-[#C8A96A] text-[#0B0B0B] rounded-lg hover:shadow-lg smooth-transition font-bold flex items-center justify-center gap-2">
+            Projekt anfragen
+            <ArrowRight size={16} />
           </a>
         </div>
       )}

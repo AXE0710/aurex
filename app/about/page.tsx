@@ -124,10 +124,8 @@ export default function About() {
                 <p className="text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light">
                   Kontaktieren Sie uns für ein persönliches Gespräch oder eine Präsentation unserer Dienstleistungen.
                 </p>
-                <a href="/kontakt">
-                  <button className="px-10 py-4 bg-accent text-accent-foreground rounded-xl hover:shadow-[0_0_30px_rgba(200,169,106,0.6)] hover:-translate-y-1 smooth-transition font-bold text-lg tracking-wide">
-                    Jetzt Kontakt aufnehmen
-                  </button>
+                <a href="/kontakt" className="inline-block px-10 py-4 bg-accent text-accent-foreground rounded-xl hover:shadow-[0_0_30px_rgba(200,169,106,0.6)] hover:-translate-y-1 smooth-transition font-bold text-lg tracking-wide">
+                  Jetzt Kontakt aufnehmen
                 </a>
               </div>
             </div>

@@ -43,10 +43,10 @@ export default function Kontakt() {
               </div>
               <h3 className="text-lg font-bold text-primary mb-2">Email</h3>
               <a
-                href="mailto:info@terralumeliving.com"
+                href="mailto:info@aurexgroup.de"
                 className="text-accent hover:text-accent/80 smooth-transition font-medium text-xs sm:text-sm break-all"
               >
-                info@terralumeliving.com
+                info@aurexgroup.de
               </a>
             </div>
 
@@ -91,11 +91,11 @@ export default function Kontakt() {
               <div className="w-12 h-12 bg-gradient-to-br from-accent to-accent/60 rounded-lg mx-auto mb-4 flex items-center justify-center">
                 <MapPin size={24} className="text-accent-foreground" />
               </div>
-              <h3 className="text-lg font-bold text-primary mb-2">Vertreten durch</h3>
-              <p className="text-foreground/70 text-xs">
-                Mubashar Ahmad Khan
+              <h3 className="text-lg font-bold text-primary mb-2">Adresse</h3>
+              <p className="text-foreground/70 text-xs leading-relaxed">
+                Am Irscher Hof 73
                 <br />
-                CEO / Geschäftsführer
+                54294 Trier, Germany
               </p>
             </div>
           </div>

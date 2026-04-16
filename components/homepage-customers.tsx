@@ -68,11 +68,9 @@ export default function HomepageCustomers() {
 
         {/* CTA */}
         <div className="flex justify-center">
-          <Link href="/zielkunden">
-            <button className="px-8 py-3 bg-accent text-accent-foreground rounded-lg hover:shadow-xl hover:shadow-accent/40 smooth-transition font-medium flex items-center gap-2 group">
-              Alle Zielgruppen ansehen
-              <ArrowRight size={18} className="group-hover:translate-x-1 smooth-transition" />
-            </button>
+          <Link href="/zielkunden" className="inline-flex px-8 py-3 bg-accent text-accent-foreground rounded-lg hover:shadow-xl hover:shadow-accent/40 smooth-transition font-medium items-center gap-2 group">
+            Alle Zielgruppen ansehen
+            <ArrowRight size={18} className="group-hover:translate-x-1 smooth-transition" />
           </Link>
         </div>
 

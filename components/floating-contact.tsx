@@ -11,8 +11,8 @@ export default function FloatingContact() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
       {/* Expanded Menu */}
       <div 
-        className={`bg-white/90 backdrop-blur-xl border border-gray-200/50 shadow-2xl rounded-2xl p-4 mb-4 w-72 transition-all duration-300 origin-bottom-right ${
-          isOpen ? 'scale-100 opacity-100 visible' : 'scale-75 opacity-0 invisible'
+        className={`bg-white/90 backdrop-blur-xl border border-gray-200/50 shadow-2xl rounded-2xl p-4 mb-4 w-[calc(100vw-3rem)] max-w-[18rem] transition-all duration-300 origin-bottom-right ${
+          isOpen ? 'scale-100 opacity-100 visible pointer-events-auto' : 'scale-75 opacity-0 invisible pointer-events-none'
         }`}
       >
         <div className="mb-4 text-center">

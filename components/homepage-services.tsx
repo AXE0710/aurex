@@ -61,11 +61,9 @@ export default function HomepageServices() {
         </div>
 
         <div className="flex justify-center mt-12">
-          <Link href="/leistungen">
-            <button className="px-10 py-4 bg-primary text-white rounded-full hover:shadow-xl hover:shadow-primary/30 hover:bg-primary/90 smooth-transition font-bold flex items-center gap-3 group text-lg tracking-wide">
-              Mehr erfahren
-              <ArrowRight size={20} className="group-hover:translate-x-2 smooth-transition" />
-            </button>
+          <Link href="/leistungen" className="inline-flex px-10 py-4 bg-primary text-white rounded-full hover:shadow-xl hover:shadow-primary/30 hover:bg-primary/90 smooth-transition font-bold items-center gap-3 group text-lg tracking-wide">
+            Mehr erfahren
+            <ArrowRight size={20} className="group-hover:translate-x-2 smooth-transition" />
           </Link>
         </div>
       </div>

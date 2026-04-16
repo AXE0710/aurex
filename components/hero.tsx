@@ -43,10 +43,10 @@ export default function Hero() {
         </FadeIn>
 
         <FadeIn delay={600} direction="up" className="pt-6">
-          <button className="px-10 py-5 bg-accent/90 backdrop-blur-md border border-accent/50 text-accent-foreground rounded-full hover:shadow-[0_0_40px_rgba(200,169,106,0.6)] hover:bg-accent smooth-transition font-bold flex items-center gap-3 mx-auto group text-lg tracking-wide hover:-translate-y-1">
+          <a href="/kontakt" className="inline-flex px-10 py-5 bg-accent/90 backdrop-blur-md border border-accent/50 text-accent-foreground rounded-full hover:shadow-[0_0_40px_rgba(200,169,106,0.6)] hover:bg-accent smooth-transition font-bold items-center gap-3 mx-auto group text-lg tracking-wide hover:-translate-y-1">
             Projekt anfragen
             <ArrowRight size={22} className="group-hover:translate-x-2 smooth-transition" />
-          </button>
+          </a>
         </FadeIn>
       </div>
 
