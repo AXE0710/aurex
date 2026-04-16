@@ -50,8 +50,8 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-white/70">
           <p>&copy; 2024 Aurex Group GmbH. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="#" className="hover:text-white smooth-transition">Impressum</Link>
-            <Link href="#" className="hover:text-white smooth-transition">Datenschutz</Link>
+            <Link href="/impressum" className="hover:text-white smooth-transition">Impressum</Link>
+            <Link href="/datenschutz" className="hover:text-white smooth-transition">Datenschutz</Link>
           </div>
         </div>
       </div>
