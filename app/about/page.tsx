@@ -47,7 +47,7 @@ export default function About() {
               <h2 className="text-4xl font-bold text-primary mb-6">
                 Ein Partner für alle Fälle
               </h2>
-              <div className="glass p-8 rounded-2xl border border-gray-200/50 shadow-lg">
+              <div className="glass p-6 md:p-8 rounded-2xl border border-gray-200/50 shadow-lg">
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
                   Effiziente, strukturierte Umsetzung mit klarer Kontrolle über alle Projektphasen.
                 </p>
@@ -87,17 +87,17 @@ export default function About() {
                 return (
                   <div
                     key={index}
-                    className={`group relative flex ${isReversed ? 'flex-row-reverse' : 'flex-row'} items-stretch overflow-hidden smooth-transition hover:brightness-105 ${isDark ? 'bg-primary text-white' : 'bg-white text-primary'}`}
+                    className={`group relative flex flex-col ${isReversed ? 'md:flex-row-reverse' : 'md:flex-row'} items-stretch overflow-hidden smooth-transition hover:brightness-105 ${isDark ? 'bg-primary text-white' : 'bg-white text-primary'}`}
                   >
                     {/* Giant number panel */}
-                    <div className={`relative flex items-center justify-center w-40 md:w-56 flex-shrink-0 ${isDark ? 'bg-white/5' : 'bg-gray-50'} border-r border-l ${isDark ? 'border-white/10' : 'border-gray-100'}`}>
-                      <span className={`text-[6rem] md:text-[8rem] font-black leading-none select-none ${isDark ? 'text-white/40 group-hover:text-accent/80' : 'text-gray-300 group-hover:text-accent/60'} smooth-transition`}>
+                    <div className={`relative flex items-center justify-center w-full md:w-56 py-6 md:py-0 flex-shrink-0 ${isDark ? 'bg-white/5' : 'bg-gray-50'} border-b md:border-b-0 md:border-r md:border-l ${isDark ? 'border-white/10' : 'border-gray-100'}`}>
+                      <span className={`text-[4rem] md:text-[8rem] font-black leading-none select-none ${isDark ? 'text-white/40 group-hover:text-accent/80' : 'text-gray-300 group-hover:text-accent/60'} smooth-transition`}>
                         {String(index + 1).padStart(2, '0')}
                       </span>
                     </div>
 
                     {/* Content panel */}
-                    <div className="flex-1 flex items-center gap-6 px-8 md:px-14 py-10">
+                    <div className="flex-1 flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 md:gap-6 px-6 sm:px-8 md:px-14 py-8 md:py-10 text-center md:text-left">
                       {/* Gold accent dot */}
                       <div className="w-2.5 h-2.5 rounded-full bg-accent flex-shrink-0 shadow-[0_0_10px_rgba(200,169,106,0.6)] group-hover:scale-150 smooth-transition" />
                       <p className={`text-lg md:text-xl font-semibold leading-snug ${isDark ? 'text-white/90' : 'text-primary'}`}>
@@ -115,7 +115,7 @@ export default function About() {
 
           {/* CTA Section */}
           <div className="fade-in-up" style={{ animationDelay: '0.4s' }}>
-            <div className="bg-primary text-white p-8 md:p-16 rounded-3xl relative overflow-hidden text-center shadow-2xl">
+            <div className="bg-primary text-white p-6 sm:p-8 md:p-16 rounded-3xl relative overflow-hidden text-center shadow-2xl">
               <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2"></div>
               <div className="relative z-10">
                 <h3 className="text-4xl font-bold mb-6">

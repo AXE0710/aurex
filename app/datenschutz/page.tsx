@@ -18,7 +18,7 @@ export default function Datenschutz() {
             </h1>
           </div>
 
-          <div className="glass p-10 md:p-14 rounded-3xl border border-gray-200/50 shadow-xl fade-in-up" style={{ animationDelay: '0.1s' }}>
+          <div className="glass p-6 sm:p-10 md:p-14 rounded-3xl border border-gray-200/50 shadow-xl fade-in-up" style={{ animationDelay: '0.1s' }}>
             <div className="space-y-10 text-foreground/80 leading-relaxed font-light text-lg">
               
               <section>

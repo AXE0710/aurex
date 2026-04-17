@@ -19,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="de" className="bg-background relative">
-      <body className="font-sans antialiased text-foreground">
+    <html lang="de" className="bg-background relative overflow-x-hidden">
+      <body className="font-sans antialiased text-foreground break-words overflow-x-hidden">
         {children}
         <FloatingContact />
         {process.env.NODE_ENV === 'production' && <Analytics />}
