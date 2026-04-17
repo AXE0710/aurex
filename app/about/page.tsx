@@ -33,9 +33,9 @@ export default function About() {
 
           {/* Hero Image Section */}
           <div className="mb-24 fade-in-up w-full h-[60vh] rounded-3xl overflow-hidden relative shadow-2xl">
-            <img 
-              src="/about_hero.png" 
-              alt="Aurex Group Boardroom" 
+            <img
+              src="/about_hero.png"
+              alt="Aurex Group Boardroom"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
@@ -49,7 +49,7 @@ export default function About() {
               </h2>
               <div className="glass p-8 rounded-2xl border border-gray-200/50 shadow-lg">
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
-                  Unser Fokus liegt nicht auf einzelnen Leistungen, sondern auf der effizienten Steuerung kompletter Projekte.
+                  Effiziente, strukturierte Umsetzung mit klarer Kontrolle über alle Projektphasen.
                 </p>
                 <p className="text-lg text-foreground/80 leading-relaxed mb-6">
                   Durch klare Prozesse, ein etabliertes Netzwerk an Fachpartnern und konsequente Qualitätskontrolle stellen wir sicher, dass Projekte zuverlässig und termingerecht umgesetzt werden.
@@ -62,9 +62,9 @@ export default function About() {
 
             <div className="relative fade-in-up md:block hidden h-[500px]" style={{ animationDelay: '0.2s' }}>
               <div className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl border border-gray-200/50">
-                <img 
-                  src="/about_planning.png" 
-                  alt="Aurex Group Planning" 
+                <img
+                  src="/about_planning.png"
+                  alt="Aurex Group Planning"
                   className="w-full h-full object-cover hover:scale-105 smooth-transition duration-1000"
                 />
               </div>
@@ -91,7 +91,7 @@ export default function About() {
                   >
                     {/* Giant number panel */}
                     <div className={`relative flex items-center justify-center w-40 md:w-56 flex-shrink-0 ${isDark ? 'bg-white/5' : 'bg-gray-50'} border-r border-l ${isDark ? 'border-white/10' : 'border-gray-100'}`}>
-                      <span className={`text-[6rem] md:text-[8rem] font-black leading-none select-none ${isDark ? 'text-white/10 group-hover:text-accent/30' : 'text-gray-100 group-hover:text-accent/20'} smooth-transition`}>
+                      <span className={`text-[6rem] md:text-[8rem] font-black leading-none select-none ${isDark ? 'text-white/40 group-hover:text-accent/80' : 'text-gray-300 group-hover:text-accent/60'} smooth-transition`}>
                         {String(index + 1).padStart(2, '0')}
                       </span>
                     </div>

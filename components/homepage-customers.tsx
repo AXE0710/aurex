@@ -13,7 +13,7 @@ export default function HomepageCustomers() {
   const centerCard = { label: 'Projektentwickler', image: '/cust_projektentwickler.png' }
 
   const Card = ({ label, image }: { label: string; image: string }) => (
-    <div className="group relative rounded-2xl overflow-hidden border border-accent/10 hover:border-accent/40 smooth-transition shadow-md hover:shadow-[0_8px_40px_rgba(200,169,106,0.2)] cursor-pointer">
+    <Link href="/zielkunden" className="block group relative rounded-2xl overflow-hidden border border-accent/10 hover:border-accent/40 smooth-transition shadow-md hover:shadow-[0_8px_40px_rgba(200,169,106,0.2)] cursor-pointer">
       {/* Image */}
       <div className="relative h-52 overflow-hidden">
         <img
@@ -34,7 +34,7 @@ export default function HomepageCustomers() {
           className="text-accent opacity-0 group-hover:opacity-100 group-hover:translate-x-1 smooth-transition flex-shrink-0"
         />
       </div>
-    </div>
+    </Link>
   )
 
   return (

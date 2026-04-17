@@ -12,7 +12,7 @@ export default function Services() {
     },
     {
       title: 'Facility Services',
-      description: 'Wir sichern den laufenden Betrieb und den langfristigen Werterhalt Ihrer Immobilie.',
+      description: 'Wir sichern den laufenden Betrieb und den langfristigen Werterhalt Ihrer Immobilie durch strukturierte Abläufe und zuverlässige Umsetzung.',
       features: [
         'Gebäudereinigung',
         'Wartung und Instandhaltung',
@@ -22,7 +22,7 @@ export default function Services() {
     },
     {
       title: 'Projektmanagement',
-      description: 'Wir übernehmen die zentrale Steuerung Ihres Projekts – transparent, kontrolliert und effizient.',
+      description: 'Wir übernehmen die zentrale Steuerung Ihres Projekts – von der Planung bis zur Umsetzung.',
       features: [
         'Planung und Strukturierung',
         'Steuerung aller Dienstleister',

@@ -27,7 +27,7 @@ export default function Leistungen() {
     },
     {
       title: 'Facility Services',
-      description: 'Wir sichern den laufenden Betrieb und den langfristigen Werterhalt Ihrer Immobilie.',
+      description: 'Wir sichern den laufenden Betrieb und den langfristigen Werterhalt Ihrer Immobilie durch strukturierte Abläufe und zuverlässige Umsetzung.',
       icon: Wrench,
       imageBefore: '/facility_services_vorher.png',
       imageAfter: '/facility_services_nachher.png',
@@ -47,7 +47,7 @@ export default function Leistungen() {
     },
     {
       title: 'Projektmanagement',
-      description: 'Wir übernehmen die zentrale Steuerung Ihres Projekts – strukturiert, transparent und effizient.',
+      description: 'Wir übernehmen die zentrale Steuerung Ihres Projekts – von der Planung bis zur Umsetzung.',
       icon: ClipboardList,
       imageBefore: '/projektmanagement_vorher.png',
       imageAfter: '/projektmanagement_nachher.png',

@@ -28,7 +28,7 @@ export default function Kontakt() {
               Projekt anfragen
             </h1>
             <p className="text-xl text-foreground/70 leading-relaxed max-w-3xl mx-auto">
-              Beschreiben Sie Ihr Vorhaben – wir melden uns kurzfristig mit einer ersten Einschätzung.
+              Beschreiben Sie Ihr Vorhaben – wir melden uns kurzfristig mit einer fundierten Ersteinschätzung und konkreten nächsten Schritten.
             </p>
           </div>
 

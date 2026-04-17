@@ -28,7 +28,7 @@ export default function Hero() {
         
         <FadeIn delay={200} direction="up">
           <p className="text-2xl sm:text-3xl text-white/90 font-light tracking-widest uppercase pb-2 drop-shadow-md">
-            Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.  Wir übernehmen Planung, Steuerung und Umsetzung – effizient, kontrolliert und aus einer Hand.
+            PLANUNG, STEUERUNG UND UMSETZUNG – EFFIZIENT, KONTROLLIERT UND AUS EINER HAND.
           </p>
           <div className="w-24 h-1 bg-accent mx-auto rounded-full shadow-[0_0_15px_rgba(200,169,106,0.5)]"></div>
         </FadeIn>
@@ -42,11 +42,14 @@ export default function Hero() {
           </div>
         </FadeIn>
 
-        <FadeIn delay={600} direction="up" className="pt-6">
+        <FadeIn delay={600} direction="up" className="pt-6 flex flex-col items-center">
           <a href="/kontakt" className="inline-flex px-10 py-5 bg-accent/90 backdrop-blur-md border border-accent/50 text-accent-foreground rounded-full hover:shadow-[0_0_40px_rgba(200,169,106,0.6)] hover:bg-accent smooth-transition font-bold items-center gap-3 mx-auto group text-lg tracking-wide hover:-translate-y-1">
             Projekt anfragen
             <ArrowRight size={22} className="group-hover:translate-x-2 smooth-transition" />
           </a>
+          <p className="mt-6 text-sm sm:text-base text-white/70 font-medium tracking-wide">
+            Schnelle Reaktionszeiten • Klare Prozesse • Ein zentraler Ansprechpartner
+          </p>
         </FadeIn>
       </div>
 
